@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Bechdaal Dashboard</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <div class="container-fluid">
+                    <div class="navbar-brand">
+                        <h1 class="fs-3">
+                            Sharwari A
+                            <p class="mt-2 fs-6 text-light">Thus, Sept 16th 2021</p>
+                        </h1>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav px-5 fs-5">
+                            <li class="nav-item mr-2">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    <i class="fas fa-home mx-1"></i>
+                                    Dashboard
+                                </a>
+                            </li>
+                            <li class="nav-item mr-2">
+                                <a class="nav-link" href="#">
+                                    <i class="fas fa-user mx-1"></i>
+                                    Users
+                                </a>
+                            </li>
+                            <li class="nav-item mr-2">
+                                <a class="nav-link" href="#">
+                                    <i class="fas fa-file-alt mx-1"></i>
+                                    Ads
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="mx-5">
+                            <button type="button" class="btn btn-outline-light btn-lg">Logout</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="container-fluid bg-light py-2">
+                <!-- welcome card -->
+                <div class="card my-2 shadow-sm">
+                    <div class="card-body">
+                        <h2 class="card-title">
+                            Welcome Back, Admin
+                        </h2>
+                        <p class="card-text fw-light text-muted">Here's what happening with your site</p>
+                    </div>
+                </div>
+
+                <!-- data info card -->
+                <div class="card my-3 shadow-sm">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card-body text-center">
+                                <h1 class="card-title">10</h1>
+                                <h5 class="card-text text-muted">Total Users</h5>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-body text-center">
+                                <h1 class="card-title">14</h1>
+                                <h5 class="card-text text-muted">Total Ads</h5>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-body text-center">
+                                <h1 class="card-title">2</h1>
+                                <h5 class="card-text text-muted">New Ads Today</h5>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card-body text-center">
+                                <h1 class="card-title">3</h1>
+                                <h5 class="card-text text-muted">New Users Today</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- new ads and new users card  -->
+                <div class="my-3">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-4">New and Unverified Users</h4>
+                                    <table class="table border table-hover">
+                                        <thead class="bg-primary text-white">
+                                            <tr>
+                                                <th>Sr no</th>
+                                                <th>Name</th>
+                                                <th>Created on</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Yash Singh</td>
+                                                <td>Oct, 13th 9.00am</td>
+                                                <td>
+                                                    <button class="btn btn-outline-primary" type="button">View</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Mira rao</td>
+                                                <td>Oct, 13th 10.01am</td>
+                                                <td>
+                                                    <button class="btn btn-outline-primary" type="button">View</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>Jessica N</td>
+                                                <td>Oct, 13th 1.20pm</td>
+                                                <td>
+                                                    <button class="btn btn-outline-primary" type="button">View</button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-4">New and Unverified Ads</h4>
+                                    <table class="table border table-hover">
+                                        <thead class="bg-primary text-white">
+                                            <tr>
+                                                <th>Sr no</th>
+                                                <th>Title</th>
+                                                <th>Created On</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Red Celerio Car</td>
+                                                <td>Oct, 13th 9.44am</td>
+                                                <td>
+                                                    <button class="btn btn-outline-primary" type="button">View</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Iphone 10</td>
+                                                <td>Oct, 13th 2.03pm</td>
+                                                <td>
+                                                    <button class="btn btn-outline-primary" type="button">View</button>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
